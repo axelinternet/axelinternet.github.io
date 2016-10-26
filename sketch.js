@@ -55,8 +55,8 @@ function setup() {
 
 function draw() {
 	for (list in heightHolder) {
-		for (item in heightHolder[list]) {
-			var factor = int(random(-10,10));
+		for (var item = 0; item < heightHolder[list].length - 1; item++) {
+			var factor = int(random(-5,5));
 			heightHolder[list][item] = heightHolder[list][item] + factor; 
 		}
 	}
