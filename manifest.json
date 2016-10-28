@@ -1,0 +1,16 @@
+{  
+  "name": "Squiggly wiggly",  
+  "short_name": "Squiggly",  
+  "manifest_version": 2,
+  "default_locale": "en",
+  "version": "1.0",
+  "description": "Look at those squiggly lines",
+  "icons": { 
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png" },
+  "background_color": "#000000",
+  "theme_color": "#F18800",
+  "orientation": "portrait-primary",
+  "display": "minimal-ui"
+}
